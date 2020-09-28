@@ -25,6 +25,12 @@
             <button id="next">Next</button>
         </div>
     </div>
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <script src="sisco.js"></script>
+    <script>
+      const {next,previous} = sisco('siscom-items', console.log)
+      document.getElementById('previous').onclick = previous
+      document.getElementById('next').onclick = next
+    </script>
 </body>
 </html>
