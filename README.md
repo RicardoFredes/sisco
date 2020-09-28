@@ -1,0 +1,2 @@
+# sisco
+Simple slider component
