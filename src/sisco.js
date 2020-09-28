@@ -4,7 +4,7 @@ const SISCO_OPTIONS = {
 }
 
 const CISCO_CLASSES = {
-  MOVE: 'sisco--is-moving', 
+  MOVE: 'sisco--moving', 
   ACTIVE: 'sisco--active',
 }
 
@@ -66,7 +66,6 @@ function sisco(id, ...args) {
         currentPosition = i
         currentChild = child
         currentChild.classList.add(CISCO_CLASSES.ACTIVE)
-        console.log(i)
       }
       ++i
     }

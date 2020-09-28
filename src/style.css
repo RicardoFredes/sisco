@@ -26,7 +26,7 @@
     overflow-x: hidden;
     scroll-behavior: smooth;
   }
-  .items.siscom--is-moving {
+  .items.sisco--moving {
       cursor: grabbing;
       cursor: -webkit-grabbing;
   }

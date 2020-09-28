@@ -25,10 +25,10 @@
             <button id="next">Next</button>
         </div>
     </div>
-    <!-- <script src="script.js"></script> -->
     <script src="sisco.js"></script>
     <script>
-      const {next,previous} = sisco('siscom-items', console.log)
+      const handleCallback = props => console.debug('cisco', props)
+      const {next,previous} = sisco('siscom-items', handleCallback)
       document.getElementById('previous').onclick = previous
       document.getElementById('next').onclick = next
     </script>
